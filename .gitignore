@@ -1,0 +1,21 @@
+.vscode/settings.json
+Activitats/Activitat 1 Sistemes Numèrics .odt
+Activitats/Activitat 2 Mesura de la informació.odt
+Activitats/Activitat 3 Sistemes Operatius.odt
+Activitats/activitat_terminal.odt
+Activitats/proba
+Fitxers_Activitats/resultat.txt
+Projecte 1/projecte_1_gestio_de_processos.odt
+Projecte 1/Projecte1_AlexMorcillo.pdf
+Projecte 2/projecte_2_gestio_de_memoria.odt
+Projecte 2/Projecte2_AlexMorcillo.pdf
+Projecte_2_Complementaria/activitat_ampliació_gestio_de_memoria.odt
+# Archivos compilados y documentos locales
+*.pdf
+*.odt
+*.docx
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
