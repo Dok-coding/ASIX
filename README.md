@@ -54,3 +54,4 @@ All assignments and lab reports are written in **Markdown** for easy reading dir
 
 - **GitHub:** [@Dok-coding](https://github.com/Dok-coding)
 - **LinkedIn:** [Alex Morcillo Quiñones](https://www.linkedin.com/in/alex-morcillo-qui%C3%B1ones-869ba0440/)
+- **Mail:** [Outlook](alexmorcillo@outlook.com) [Gmail](eldokcoding@gmail.com)
