@@ -31,16 +31,14 @@ This repository is organized by modules following the official curriculum. Each 
 | :-----: | ----- | ----- | :-----: | 
 | **M01** | [0369 - Implantació de Sistemes Operatius](./0369_Implantacio_de_sistemes_operatius) | OS installation, process management (PIDs, concurrency), and basic administration. | 🟠 WIP | 
 | **M02** | [0370 - Planificació i Administració de Xarxes](./0370_Planificacio_i_administracio_de_xarxes) | Network configuration, subnetting, and protocols. | 🟠 WIP |
-| **M03** | [0371 - Fonaments de Maquinari](./0371_Fonaments_de_maquinari) | Hardware architecture, assembly, and maintenance. | 🟠 WIP | 
+| **M03** | [0371 - Fonaments de Maquinari](./0371_Fonaments_de_maquinari) | Hardware architecture, assembly, and maintenance. | 🟢 | 
 | **M04** | [0372 - Gestió de Bases de Dades](./0372_Gestio_Base_Dades) | ER design, SQL queries, and DBMS administration. | 🟠 WIP | 
 | **M05** | [0373 - Llenguatges de Marques](./0373_llenguatge_marques) | HTML, CSS, XML, and structured documentation. | 🟠 WIP | 
-| **M06** | [0179 - Anglès ASIX](./0179_Angles_ASIX) | Technical English for IT professionals. | 🟠 WIP |
-| **M07** | [1709 - Itinerari Personal per a l'Ocupabilitat I](./1709_IPO) | Career guidance and workplace safety. | 🟠 WIP |
-| **M08** | Administració de Sistemes Operatius | *(To be taken in 2nd year)* | 🔒 | 
-| **M09** | Serveis de Xarxa i Internet | *(To be taken in 2nd year)* | 🔒 | 
-| **M10** | Aplicacions Web | *(To be taken in 2nd year)* | 🔒 | 
-| **M11** | Seguretat i Alta Disponibilitat | *(To be taken in 2nd year)* | 🔒 | 
-| **M12** | Administració SGBD | *(To be taken in 2nd year)* | 🔒 |
+| **M06** | Administració de Sistemes Operatius | *(To be taken in 2nd year)* | 🔒 | 
+| **M07** | Serveis de Xarxa i Internet | *(To be taken in 2nd year)* | 🔒 | 
+| **M08** | Aplicacions Web | *(To be taken in 2nd year)* | 🔒 | 
+| **M09** | Seguretat i Alta Disponibilitat | *(To be taken in 2nd year)* | 🔒 | 
+| **M10** | Administració SGBD | *(To be taken in 2nd year)* | 🔒 |
 
 ## How to read the reports
 
