@@ -1,0 +1,3 @@
+Projecte de gestió de fitxers
+Autor: Alex Morcillo
+Data: 07/10/26
