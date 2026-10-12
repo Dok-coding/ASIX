@@ -9,3 +9,4 @@ All HTML activities are deployed natively and can be viewed interactively via **
 
 *   [**Activity 1**](https://dok-coding.github.io/ASIX/0373_llenguatge_marques/Activitat_1/1-2_La_Revista_Online.html)
 *   [**Activity 2.1**](https://dok-coding.github.io/ASIX/0373_llenguatge_marques/Activitat_2/2-1/2-1_Horari_Classes.html)
+*   [**Activity 2.2**](https://dok-coding.github.io/ASIX/0373_llenguatge_marques/Activitat_2/2-2/2-2_Torneig_eSports.html)
