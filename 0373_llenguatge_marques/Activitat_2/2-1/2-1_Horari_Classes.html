@@ -1,95 +1,181 @@
-<!--Acabar ben fet a casa!!-->
-
 <!DOCTYPE html>
-<style>
-td.clase {
-    padding: 10px;
-    text-align: center;
-}
-
-.asignatura, .profe, .aula {
-    display: block; 
-}
-
-.asignatura {
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-bottom: 4px; /* Espacio con el texto de abajo */
-    color: #000000;
-}
-
-.profe {
-    font-size: 0.85em;
-    color: #7f8c8d;
-}
-.aula {
-    font-size: 0.85em;
-    color: #7f8c8d;
-}
-</style>
 <html lang="ca">
-    <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>El meu horari de classes</title>
     <meta name="description" content="El meu horari de classes" />
     <link rel="icon" href="./img/favicon.ico" />
-    </head>
-    <body>
-        <header>
-            <h1>El meu horari de classes</h1>
-            <nav>
-                <ul>
-                    <li><a href="./horaris-general.html">Horaris General</a></li>
-                    <li><a href="https://agora.xtec.cat/ies-carles-vallbona/">Web del centre</a></li>
-                    <li><a href="#horari">Horari de classes</a></li>
-                    <li><a href="./assets/ED1ASIX_FI_2627_R1_0373.pdf" download="Fitxa.pdf">Descarregar PDF</a></li>
-                    <li><a href="mailto:alexmorcillo@outlook.com">El meu mail</a></li>
-                    <li><a href="tel:+34938700000">Telèfon del centre</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <table>
-                <caption>Horari de 1r ASIX Grup B</caption>
-                <thead>
-                    <tr>
-                        <th>Hora</th>
-                        <th>Dilluns</th>
-                        <th>Dimarts</th>
-                        <th>Dimecres</th>
-                        <th>Dijous</th>
-                        <th>Divendres</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>15:00 - 16:00</td>
-                        <td>---</td>
-                        <td class="clase">
-                            <span class="asignatura">Itinerari personal per a l'ocupabilitat</span>
-                            <span class="profe">T.Sarkhis</span>
-                            <span class="aula">101</span>
-                        </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="6">Horari subjecte a canvis</td>
-                    </tr>
-                </tfoot>
-            </table>
-        </main>
-    </body>
+    <style>
+        table, th, td { border: 1px solid black; border-collapse: collapse; }
+        th, td { padding: 10px; text-align: center; }
+        th { background-color: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El meu horari de classes</h1>
+        <nav>
+            <ul>
+                <li><a href="horaris-general.html">Horaris General</a></li>
+                <li><a href="https://agora.xtec.cat/ies-carles-vallbona/">Web del centre</a></li>
+                <li><a href="#horari">Saltar a l'horari</a></li>
+                <li><a href="./assets/ED1ASIX_FI_2627_R1_0373.pdf" download="Fitxa.pdf">Descarregar PDF</a></li>
+                <li><a href="mailto:xavi.garcia@icv.cat">Enviar email al professor</a></li>
+                <li><a href="tel:+34938700000">Telèfon del centre</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <table id="horari">
+            <caption>Horari de 1r ASIX Grup B</caption>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Dilluns</th>
+                    <th>Dimarts</th>
+                    <th>Dimecres</th>
+                    <th>Dijous</th>
+                    <th>Divendres</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- PRIMERA HORA -->
+                <tr>
+                    <th>15:00 - 16:00</th>
+                    <td></td>
+                    <td>
+                        <strong>Itinerari personal per a l'ocupabilitat</strong><br>
+                        <em>T. Sarkhis</em><br>
+                        Aula 101
+                    </td>
+                    <td></td>
+                    <!-- Ús de rowspan per l'assignatura de 2 hores -->
+                    <td rowspan="2">
+                        <strong>Implantació de sistemes operatius</strong><br>
+                        <em>F. Sanabria</em><br>
+                        Aula 101
+                    </td>
+                    <td rowspan="2">
+                        <strong>Llenguatges de marques i SGE</strong><br>
+                        <em>O. Terradelles</em><br>
+                        Aula 008
+                    </td>
+                </tr>
+                <!-- SEGONA HORA -->
+                <tr>
+                    <th>16:00 - 17:00</th>
+                    <td>
+                        <strong>Planificació i administració de xarxes</strong><br>
+                        <em>J. Fernandez</em><br>
+                        Aula Polivalent
+                    </td>
+                    <td>
+                        <strong>Implantació de sistemes operatius</strong><br>
+                        <em>F. Sanabria</em><br>
+                        Aula 101
+                    </td>
+                    <td rowspan="2">
+                        <strong>Implantació de sistemes operatius</strong><br>
+                        <em>F. Sanabria</em><br>
+                        Aula 101
+                    </td>
+                </tr>
+                <!-- TERCERA HORA -->
+                <tr>
+                    <th>17:00 - 18:00</th>
+                    <td>
+                        <strong>Anglès</strong><br>
+                        <em>LL. Castellet</em><br>
+                        Aula polivalent
+                    </td>
+                    <td>
+                        <strong>Tutoria</strong><br>
+                        <em>O. Terradelles</em><br>
+                        Aula 101
+                    </td>
+                    <td>
+                        <strong>Gestió de bases de dades</strong><br>
+                        <em>J. Garcia</em><br>
+                        Aula 008
+                    </td>
+                    <td>
+                        <strong>Gestió de bases de dades</strong><br>
+                        <em>J. Garcia</em><br>
+                        Aula 008
+                    </td>
+                </tr>
+                <!-- DESCANS -->
+                <tr>
+                    <th>18:00 - 18:20</th>
+                    <td colspan="5">DESCANS</td>
+                </tr>
+                <!-- QUARTA HORA -->
+                <tr>
+                    <th>18:20 - 19:20</th>
+                    <td>
+                        <strong>Anglès</strong><br>
+                        <em>LL. Castellet</em><br>
+                        Aula polivalent
+                    </td>
+                    <td rowspan="2">
+                        <strong>Gestió de bases de dades</strong><br>
+                        <em>J. Garcia</em><br>
+                        Aula 101
+                    </td>
+                    <td rowspan="2">
+                        <strong>Implantació de sistemes operatius</strong><br>
+                        <em>F. Sanabria</em><br>
+                        Aula 101
+                    </td>
+                    <td>
+                        <strong>Gestió de bases de dades</strong><br>
+                        <em>J. Garcia</em><br>
+                        Aula 008
+                    </td>
+                    <td rowspan="3">
+                    </td>
+                </tr>
+                <!-- CINQUENA HORA -->
+                <tr>
+                    <th>19:20 - 20:20</th>
+                    <td rowspan="2">
+                        <strong>Itinerari personal per a l'ocupabilitat</strong><br>
+                        <em>T. Sarkhis</em><br>
+                        Aula 101
+                    </td>
+                    <td rowspan="2">
+                        <strong>Planificació i administració de xarxes</strong><br>
+                        <em>J. Fernandez</em><br>
+                        Aula 101
+                    </td>
+                </tr>
+                <!-- SISENA HORA -->
+                <tr>
+                    <th>20:20 - 21:20</th>
+                    <td>
+                        <strong>Fonaments de maquinari</strong><br>
+                        <em>J. Foixench</em><br>
+                        Aula 101
+                    </td>
+                    <td>
+                        <strong>Fonaments de maquinari</strong><br>
+                        <em>J. Foixench</em><br>
+                        Aula 101
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6"><small>Horari generat amb HTML i CSS</small></td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+<!-- Peu de pàgina -->
+    <footer>
+        <p><small>&copy; 2026 Institut Carles Vallbona fet per l'Alex Morcillo.</small></p>
+    </footer>
+</body>
 </html>
