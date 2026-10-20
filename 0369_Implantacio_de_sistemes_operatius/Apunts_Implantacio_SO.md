@@ -121,3 +121,25 @@ DMA|Poca intervenció durant la còpia|Transferències grans de dades
 - Els buffers i les cues permeten coordinar ritmes i moltes peticions.
 - El spooling és especialment conegut en la gestió d’impressores.
 - Linux i Windows tenen models diferents, però els conceptes fonamentals són semblants.
+
+---
+13/10
+---
+
+### Software Lliure i Privat
+
+- [PDF REFERENCIA](https://moodle.iescarlesvallbona.cat/pluginfile.php/147779/mod_resource/content/4/Software%20lliure%20vs%20Privatiu.pdf)
+
+- [GOOGLE OPEN SOURCE](https://opensource.google/?hl=es)
+
+Google open source es una database de projectes open source
+
+### Virtualització de sistemes
+
+- [PDF REFERENCIA](https://moodle.iescarlesvallbona.cat/pluginfile.php/121972/mod_resource/content/13/CFGS_M01_UF01_RA01__03_Virtualitzaci%C3%B3.pdf)
+
+![esquema MV](assets/image-1.png)
+
+- Utilitzar maquines virtuals ens permet tindre diferents OS dintre un OS principal, es una emulació completa amb el seu propi HW virtual.
+
+Per a nosaltres es també una assegurança extra ja que si a una activitat ens carreguem el SO només perdem la maquina virtual i no tot el PC
