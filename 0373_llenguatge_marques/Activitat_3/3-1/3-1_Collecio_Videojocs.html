@@ -1,3 +1,5 @@
+<!--AFEGIR ELS ENLLAÇOS FALTANTS A VIDEOS-->
+
 <!DOCTYPE html>
 <html lang="ca">
 <head>
@@ -10,49 +12,87 @@
         table, th, td { border: 1px solid black; border-collapse: collapse; }
         th, td { padding: 10px; text-align: center; }
         th { background-color: #f0f0f0; }
+        .copyleft {
+        display:inline-block;
+        transform: rotate(180deg);
+}
     </style>
 </head>
 <body>
+    <!-- Header amb titol-->
     <header>
         <h1>La meva col·lecció de videojocs</h1>
     </header>
+    <!--Navegació-->
         <nav>
             <ul>
                 <li><a href="#Imatges">Imatges</a></li>
                 <li><a href="#Videos">Videos</a></li>
-                <li><a href="#Musica">Música</a></li>
             </ul>
         </nav>
     <main>
+        <!-- Secció d'imatges -->
         <section id="Imatges">
             <h2>Imatges</h2>
             <p>Aquí tens les portades dels meus videojocs preferits:</p>
                 <figure>
                     <img
-                    src="/assets/cyberpunk_2077.jpg"
+                    src="./assets/cyberpunk_2077.jpg"
                     alt="Portada Cyberpunk 2077"
                     width="400"
                     />
-                    <figcaption>Cyberpunk 2077, un videojoc de rol de l'any 2020</figcaption>
+                    <figcaption><a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077  ">Cyberpunk 2077</a>, un videojoc de rol de l'any 2020</figcaption>
                 </figure>
                 <figure>
                     <img
-                    src="/assets/tboi_repentance.jpg"
+                    src="./assets/tboi_repentance.jpg"
                     alt="Portada The Binding of Isaac: Rebirth|Repentance"
                     width="400"
                     />
-                    <figcaption>The Binding of Isaac: Rebirth(Repentance), un videojoc roguelike de l'any 2014</figcaption>
+                    <figcaption><a href="https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance">The Binding of Isaac: Rebirth(Repentance)</a>, un videojoc roguelike de l'any 2014</figcaption>
                 </figure>
         </section>
+        <!-- Secció de videos -->
         <section id="Videos">
             <h2>Videos</h2>
             <p>Aquí tens trailers i gameplays dels meus videojocs preferits:</p>
-                <video controls poster="./img/poster-minecraft-video.png" width="600" height="350">
-                    Minecraft Videojoc
-                    <source src="./video/minecraft-trailer.mp4" type="video/mp4" />
-                    <source src="./video/minecraft-trailer.ogv" type="video/ogg" />
+                <video controls poster="./assets/tboi_poster.jpg" width="600" height="350">
+                    Trailer de The Binding of Isaac: Repentance
+                    <source src="./assets/tboi_trailer.mp4" type="video/mp4" />
+                    <source src="./assets/tboi_trailer.ogv" type="video/ogg" />
+                </video>
+                <video controls poster="./assets/tboi_poster2.jpg" width="600" height="350">
+                    Gameplay de The Binding of Isaac: Repentance
+                    <source src="./assets/tboi_gameplay.mp4" type="video/mp4" />
+                    <source src="./assets/tboi_gameplay.ogv" type="video/ogg" />
+                </video>
+                <video controls poster="./assets/cyberpunk_poster.jpg" width="600" height="350">
+                    Trailer de Cyberpunk 2077
+                    <source src="./assets/cyberpunk_trailer.mp4" type="video/mp4" />
+                    <source src="./assets/cyberpunk_trailer.ogv" type="video/ogg" />
+                </video>
+                <video controls poster="./assets/cyberpunk_poster2.jpg" width="600" height="350">
+                    Gameplay de Cyberpunk 2077
+                    <source src="./assets/cyberpunk_gameplay.mp4" type="video/mp4" />
+                    <source src="./assets/cyberpunk_gameplay.ogv" type="video/ogg" />
                 </video>
         </section>
+        <!-- Aside amb recomanacions -->
+        <aside>
+            <h2>Enllaços de altres jocs que recomano</h2>
+            <ul>
+                <li><a href="https://store.steampowered.com/app/221100/DayZ/" target="_blank">DayZ. Un videojoc de supervivència en un món post-apocalíptic</a></li>
+                <li><a href="https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/" target="_blank">DARK SOULS: REMASTERED. Un Action RPG amb una estetica de fantasia oscura</a></li>
+                <li><a href="https://store.steampowered.com/app/1174180/Hades/" target="_blank">Hades. Un videojoc de tipus roguelike de mitologia grega</a></li>
+            </ul>
+        </aside>
     </main>
+    <!--Footer-->
+    <footer>
+        <p><span class="copyleft">&copy;</span>; 2026 Institut Carles Vallbona. HTML escrit per Alex Morcillo (1r ASIX).</p>
+        <p>
+            <a href="https://github.com/Dok-coding/ASIX">El meu GitHub</a> | <a href="https://agora.xtec.cat/ies-carles-vallbona/">Web del Centre</a>
+        </p>
+    </footer>
 </body>
 </html>

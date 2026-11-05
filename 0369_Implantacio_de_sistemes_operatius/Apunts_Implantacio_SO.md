@@ -143,3 +143,19 @@ Google open source es una database de projectes open source
 - Utilitzar maquines virtuals ens permet tindre diferents OS dintre un OS principal, es una emulació completa amb el seu propi HW virtual.
 
 Per a nosaltres es també una assegurança extra ja que si a una activitat ens carreguem el SO només perdem la maquina virtual i no tot el PC
+
+
+---
+27/10
+---
+[PDF REFERENCIA](https://moodle.iescarlesvallbona.cat/pluginfile.php/258670/mod_resource/content/20/Etapes.pdf)
+
+### Etapes implantació Sistema Informàtic
+
+### 1. Definició de requeriments
+
+### 2. Anàlisi del sistema informàtic
+
+### 3. Disseny del sistema informàtic
+
+### 4. Implantació i posta en marxa

@@ -84,3 +84,20 @@ A la part inferior trobem de esquerra a dreta:
 - CLRTC (Clear RTC RAM): pins utilitzats per esborrar memoria CMOS i resetejar la BIOS a valors de fabrica
 - SPEAKER: altaveu intern que emet codis de pitidos durant el POST(Power-On Self-Test) per avisar de possibles errors de inici, l'estandar actual son llums de post que fan mes façil identificar errors.
 - PILA de CMOS: Pila (normalment CR2032) que serveix per subministrar energia constant al xip de la BIOS/CMOS quan el PC està fora de la corrent, evitant que es perdin la data, l'hora i la configuració del maquinari.
+
+
+
+
+# PART 2 DE LA INFO QUE FALTA
+
+
+- A la pagina 10 punt 4 dius la ranura blanca pertany al pci express i duyes de blanques, la de pci express es de color blau :P
+- pag 11 pila cmos, la confgiguracio del m, falta aquinari  i despres fas un nou apartat 7 que explica la pila de nou, uno o el otro sobra, jo dic de treure el meu, que es mes reduit i deixar el punt 7 sencer
+
+Anex
+- Si no m'eqiovoco el north bridge no fa de grafica, son els grafics integrats de la CPU, llavors la resta de cosas quedan buides
+- Targeta de so es integrada a la placa base
+- La de xarxa també inmtegrada a la placa base
+- Unitats sata tenim el lector, i ara el disc dur nou que hem afegit
+- PSU: Els conectors de sata no son sata ii la generació de sata nomes aplica als conectors de dades, el de la font es un conector de electricitat, el sata gordo no el sata petit que li vam demanar al profe
+- de cables seguint una foto de ebay veig que te 2 de sata, 1 24 pins, dos de 4 pins i 3 molex
