@@ -159,3 +159,13 @@ Per a nosaltres es també una assegurança extra ja que si a una activitat ens c
 ### 3. Disseny del sistema informàtic
 
 ### 4. Implantació i posta en marxa
+
+
+---
+5/11/26
+---
+
+3 tipus de copias de seguretat important examens!!
+[PDF REFERENCIA](https://moodle.iescarlesvallbona.cat/pluginfile.php/122060/mod_resource/content/6/Presentaci%C3%B3%20RA8.pdf)
+
+![tar](assets/image-2.png)

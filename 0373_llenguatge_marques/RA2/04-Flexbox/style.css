@@ -1,0 +1,74 @@
+/* ===========================================================
+   ACTIVITAT GUIADA · FLEXBOX I MEDIA QUERIES
+   Modifica ÚNICAMENT els apartats marcats amb TODO.
+   No cal canviar l'HTML ni els estils visuals ja preparats.
+   =========================================================== */
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #233047; background: #f3f6fb; line-height: 1.55; }
+.contenidor { width: min(1100px, calc(100% - 40px)); margin: 0 auto; }
+.capcalera { padding: 44px 0; color: white; background: #263e71; }
+.marca { font-size: 12px; font-weight: bold; letter-spacing: 2px; color: #b9dcff; }
+h1 { margin: 8px 0; font-size: clamp(26px, 4vw, 38px); }
+.subtitol { margin: 0; color: #dce8ff; }
+main { padding-top: 38px; padding-bottom: 42px; }
+h2 { margin-bottom: 4px; }
+.introduccio { margin-top: 0; margin-bottom: 22px; color: #58667b; }
+.targeta { padding: 28px; border: 1px solid #dce4f0; border-radius: 14px; background: white; box-shadow: 0 6px 18px rgba(31, 51, 88, .07); }
+.targeta h3 { margin: 12px 0 8px; font-size: 25px; }
+.targeta p { margin: 0 0 22px; }
+.etiqueta { font-weight: bold; text-transform: uppercase; font-size: 11px; letter-spacing: 1.2px; color: #486fb0; }
+.peu-targeta { display: inline-block; padding: 6px 12px; background: #e7eefb; border-radius: 20px; color: #2a4d87; font-size: 12px; font-weight: bold; }
+.nota { margin-top: 28px; padding: 16px 20px; border-left: 4px solid #5c83c9; background: #e8eef9; }
+.peu-pagina { padding: 22px 20px; text-align: center; font-size: 13px; color: #69758c; }
+
+/* ===========================================================
+   BLOC 1 · FLEXBOX (ORDINADOR)
+   =========================================================== */
+.targetes {
+   display:flex;
+   justify-content: center;
+   flex-direction: row;
+   gap: 20px;/* TODO 3: deixa 20px d'espai entre les targetes. */
+   flex-wrap: wrap;/* TODO 4: permet que les targetes saltin de fila si no hi caben. */
+}
+
+.targeta {
+   justify-content: space-around;
+   flex-basis: 31.33%;
+   align-items: flex-start;
+   /* TODO 5: reparteix l'espai en tres columnes iguals amb flex.
+      Pista: utilitza una base aproximada del 33,333% i permet créixer.
+      Recorda que les separacions també ocupen espai. */
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+   .targeta{
+      justify-content: space-between;
+      flex-basis: 48%;
+      flex-grow: 1;
+   }
+   
+   .targetes{flex-grow: 1;}
+   
+   /* TODO 6: escriu una media query que limiti l'amplada a 900px.
+   Dins d'aquesta media query, fes que .targeta ocupi una base
+   d'aproximadament la meitat de la fila (menys l'espai del gap).
+   TODO 7: impedeix que les targetes de la primera fila es facin
+   tan petites que hi càpiguen tres. */
+
+}
+
+@media screen and (max-width: 600px) {
+   .targeta{
+      flex-direction: column;
+      flex-basis: 100%;
+      flex-grow: 1;
+   }
+}
+/* ===========================================================
+   BLOC 3 · MÒBIL (600px o menys)
+   =========================================================== */
+/* TODO 8: escriu una media query per a pantalles de 600px o menys.
+   TODO 9: canvia la direcció de .targetes a vertical.
+   TODO 10: fes que .targeta ocupi l'amplada disponible. */

@@ -9,6 +9,27 @@
     <meta name="description" content="La meva col·lecció de videojocs" />
     <link rel="icon" href="../../assets/logo.ico"/>
     <style>
+        body {
+            background-color: #DEE2E6;
+        }
+        .grid-images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        }
+        .grid-images figure {
+        margin: 0;
+        }
+        .grid-videos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        max-width: 1240px;
+        }
+        .grid-videos video {
+        width: calc(50% - 10px);
+        height: auto;
+        }
         table, th, td { border: 1px solid black; border-collapse: collapse; }
         th, td { padding: 10px; text-align: center; }
         th { background-color: #f0f0f0; }
@@ -35,6 +56,7 @@
         <section id="Imatges">
             <h2>Imatges</h2>
             <p>Aquí tens les portades dels meus videojocs preferits:</p>
+            <div class="grid-images">
                 <figure>
                     <img
                     src="./assets/cyberpunk_2077.jpg"
@@ -45,45 +67,48 @@
                 </figure>
                 <figure>
                     <img
-                    src="./assets/tboi_repentance.jpg"
+                    src="./assets/tboi_repentance.webp"
                     alt="Portada The Binding of Isaac: Rebirth|Repentance"
                     width="400"
                     />
                     <figcaption><a href="https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance">The Binding of Isaac: Rebirth(Repentance)</a>, un videojoc roguelike de l'any 2014</figcaption>
                 </figure>
+                </div>
         </section>
         <!-- Secció de videos -->
         <section id="Videos">
             <h2>Videos</h2>
             <p>Aquí tens trailers i gameplays dels meus videojocs preferits:</p>
-                <video controls poster="./assets/tboi_poster.jpg" width="600" height="350">
-                    Trailer de The Binding of Isaac: Repentance
-                    <source src="./assets/tboi_trailer.mp4" type="video/mp4" />
-                    <source src="./assets/tboi_trailer.ogv" type="video/ogg" />
-                </video>
-                <video controls poster="./assets/tboi_poster2.jpg" width="600" height="350">
-                    Gameplay de The Binding of Isaac: Repentance
-                    <source src="./assets/tboi_gameplay.mp4" type="video/mp4" />
-                    <source src="./assets/tboi_gameplay.ogv" type="video/ogg" />
-                </video>
+            <div class="grid-videos">
                 <video controls poster="./assets/cyberpunk_poster.jpg" width="600" height="350">
                     Trailer de Cyberpunk 2077
                     <source src="./assets/cyberpunk_trailer.mp4" type="video/mp4" />
                     <source src="./assets/cyberpunk_trailer.ogv" type="video/ogg" />
                 </video>
-                <video controls poster="./assets/cyberpunk_poster2.jpg" width="600" height="350">
+                <video controls poster="./assets/cyberpunk_poster2.png" width="600" height="350">
                     Gameplay de Cyberpunk 2077
                     <source src="./assets/cyberpunk_gameplay.mp4" type="video/mp4" />
                     <source src="./assets/cyberpunk_gameplay.ogv" type="video/ogg" />
                 </video>
+                                <video controls poster="./assets/tboi_poster.jpg" width="600" height="350">
+                    Trailer de The Binding of Isaac: Repentance
+                    <source src="./assets/tboi_trailer.mp4" type="video/mp4" />
+                    <source src="./assets/tboi_trailer.ogv" type="video/ogg" />
+                </video>
+                <video controls poster="./assets/tboi_poster2.png" width="600" height="350">
+                    Gameplay de The Binding of Isaac: Repentance
+                    <source src="./assets/tboi_gameplay.mp4" type="video/mp4" />
+                    <source src="./assets/tboi_gameplay.ogv" type="video/ogg" />
+                </video>
+                </div>
         </section>
         <!-- Aside amb recomanacions -->
         <aside>
             <h2>Enllaços de altres jocs que recomano</h2>
             <ul>
-                <li><a href="https://store.steampowered.com/app/221100/DayZ/" target="_blank">DayZ. Un videojoc de supervivència en un món post-apocalíptic</a></li>
-                <li><a href="https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/" target="_blank">DARK SOULS: REMASTERED. Un Action RPG amb una estetica de fantasia oscura</a></li>
-                <li><a href="https://store.steampowered.com/app/1174180/Hades/" target="_blank">Hades. Un videojoc de tipus roguelike de mitologia grega</a></li>
+                <li><a href="https://store.steampowered.com/app/221100/DayZ/">DayZ.</a> Un videojoc de supervivència en un món post-apocalíptic</li>
+                <li><a href="https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/">DARK SOULS: REMASTERED.</a> Un Action RPG amb una estetica de fantasia oscura</li>
+                <li><a href="https://store.steampowered.com/app/1145360/Hades/">Hades. </a>Un videojoc de tipus roguelike de mitologia grega</li>
             </ul>
         </aside>
     </main>

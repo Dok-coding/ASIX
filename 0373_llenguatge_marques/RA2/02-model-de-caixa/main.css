@@ -1,0 +1,107 @@
+/* =============================================================================
+  EXERCICI 10: Layout de Targetes amb Espaiats Controlats
+   ============================================================================= */
+
+/*
+OBJECTIU: Dominar l'espaiament amb margin i padding en layouts realistes
+CONCEPTES: Espaiat consistent, jerarquia visual, composició de pàgina
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* Contenidor de pàgina - controla l'amplada màxima i centra */
+#pagina {
+  max-width: 900px;
+  margin: 1rem auto; /* Centra horitzontalment */
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 3rem;
+}
+
+/* Capçalera */
+header {
+  background-color: #2c3e50;
+  color: #333333;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 6px 6px 0 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* Contingut principal */
+main {
+
+}
+
+/* Secció de projectes */
+h2 {
+  font-size: 2rem;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: #3498db;
+  color: #2c3e50;
+  text-align: center;
+
+}
+
+/* Targeta de projecte */
+.projecte {
+  color: #2c3e50;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 2px;
+  box-shadow: #e0e0e0 0px 7px 29px 0px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Botó "Veure més" */
+.boto-veure {
+  background-color: #3498db;
+  color: #ecf0f1;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
+
+/* Peu de pàgina */
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  border-radius: 0 0 6px 6px;
+  padding: 2rem;
+  font-size: 1rem;
+  margin: 3rem;
+}
+
+#boto-unic {
+  font-weight:bold ;
+  color: #ecf0f1;
+  background-color: #333333;
+  font-size: 1.1rem;
+  border-radius: 1px;
+  box-shadow: white 0px 0px 12px 0px;
+  padding: 1rem;
+}
