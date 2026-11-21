@@ -10,7 +10,6 @@ Projecte 1/Projecte1_AlexMorcillo.pdf
 Projecte 2/projecte_2_gestio_de_memoria.odt
 Projecte 2/Projecte2_AlexMorcillo.pdf
 Projecte_2_Complementaria/activitat_ampliació_gestio_de_memoria.odt
-*.pdf
 *.odt
 *.docx
 .DS_Store
@@ -25,6 +24,6 @@ Capturas/
 /home/alex/ASIX/apuntsmiki.md
 apuntsmiki.md
 1000212968.png
-images/diag-mermaid-md5-868b121f6b489ed4e33c04f249495550.png
+images/
 0372_Gestio_Base_Dades/.asciidoctor/diagram/
 1709_IPO
